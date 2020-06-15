@@ -1,0 +1,344 @@
+img {
+    width: 162px;
+    background-color: #f7f7ff;
+}
+
+img[src*="scooter"] {
+    height: 257px;
+    width: 351px;
+}
+
+body {
+    background-size: contain;
+    background-position: center;
+    background-color: white;
+}
+
+h1 {
+    font-size: 302%;
+    width: 160px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.paragraph-1 {
+    font-size: 171%;
+    font-family: 'Montserrat', Italic;
+}
+
+.paragraph-2 {
+    font-size: 129%;
+    margin: 4px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+input {
+    background-color: rgb(250, 241, 241);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    background-color: #f7f7ff;
+    width: 292px;
+    margin: 59px;
+}
+
+.third-container {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+input[type=button] {
+    background-color: #57eeab;
+    color: black;
+    width: 290px;
+    height: 45px;
+    border-color: #57eeab;
+    font-size: 28px;
+    font-family: 'Montserrat', bold;
+}
+
+footer {
+    background-color: #fffd8c;
+    height: 477px;
+}
+
+h3 {
+    font-size: 197%;
+    height: 67px;
+    margin: 13px;
+    font-family: 'Montserrat', bold;
+}
+
+label#hours {
+    color: white;
+}
+
+input#hours {
+    width: 66px;
+    margin: 7px;
+}
+
+label#city {
+    color: white;
+}
+
+input#city {
+    color: white;
+    width: 148px;
+    margin: 7px;
+}
+
+input[type=submit] {
+    background-color: #ff8480;
+    width: 434px;
+    height: 39px;
+    border-color: #ff8480;
+    font-size: 28px;
+    margin: 15px;
+    color: white;
+    font-family: 'Montserrat', bold;
+}
+
+.info {
+    margin: 38px;
+    width: 898px;
+    display: flex;
+    padding: 1px;
+}
+
+.icons {
+    font-size: 56px;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/*tablet view*/
+
+@media(min-width: 35rem) {
+    img {
+        width: 143px;
+        background-color: #f7f7ff;
+    }
+    img[src*="scooter"] {
+        height: 445px;
+        width: 634px;
+        margin: 58px;
+    }
+    body {
+        background-size: contain;
+        background-position: center;
+        background-color: white;
+    }
+    h1 {
+        font-size: 418%;
+        width: 406px;
+        font-family: 'Montserrat', sans-serif;
+    }
+    .paragraph-1 {
+        font-size: 168%;
+        font-family: 'Montserrat', Italic;
+    }
+    .paragraph-2 {
+        font-size: 129%;
+        font-family: 'Montserrat', sans-serif;
+        margin: 3px;
+    }
+    h2 {
+        font-family: 'Montserrat', sans-serif;
+    }
+    input {
+        background-color: rgb(250, 241, 241);
+    }
+    form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: #f7f7ff;
+        width: 569px;
+        margin: 84px;
+        border: solid;
+    }
+    .third-container {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    input[type=button] {
+        background-color: #57eeab;
+        color: black;
+        width: 290px;
+        height: 45px;
+        border-color: #57eeab;
+        font-size: 28px;
+        font-family: 'Montserrat', bold;
+    }
+    footer {
+        background-color: #fffd8c;
+        height: 477px;
+        width: 101%;
+    }
+    h3 {
+        font-size: 151%;
+        height: 29px;
+        margin: 13px;
+        font-family: 'Montserrat', bold;
+    }
+    input#hours {
+        width: 61px;
+        display: flex;
+        margin: 9px;
+    }
+    input#city {
+        margin: 8px;
+    }
+}
+
+input[type=submit] {
+    background-color: #ff8480;
+    width: 434px;
+    height: 39px;
+    border-color: #ff8480;
+    font-size: 28px;
+    margin: 15px;
+    color: white;
+    font-family: 'Montserrat', bold;
+}
+
+label {
+    display: flex;
+}
+
+.info {
+    margin: 38px;
+    width: 898px;
+    display: flex;
+    padding: 1px;
+}
+
+.icons {
+    font-size: 50px;
+    padding: 14px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+/*desktop view*/
+
+@media (min-width: 80rem) {
+    img {
+        width: 143px;
+        background-color: #f7f7ff;
+    }
+    img[src*="scooter"] {
+        height: 570px;
+        width: 835px;
+        margin: 47px;
+    }
+    body {
+        background-size: contain;
+        background-position: center;
+        background-color: white;
+    }
+    h1 {
+        font-size: 418%;
+        width: 406px;
+        font-family: 'Montserrat', sans-serif;
+    }
+    .paragraph-1 {
+        font-size: 168%;
+        font-family: 'Montserrat', Italic;
+    }
+    .paragraph-2 {
+        font-size: 129%;
+        font-family: 'Montserrat', sans-serif;
+        margin: 8px;
+    }
+    h2 {
+        font-family: 'Montserrat', sans-serif;
+    }
+    input {
+        background-color: rgb(250, 241, 241);
+    }
+    form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: #f7f7ff;
+        width: 569px;
+        border: solid;
+        margin-inline-start: 884px;
+        margin-block-start: -591px;
+    }
+    .third-container {
+        display: flex;
+        flex-direction: inherit;
+        margin-inline-end: auto;
+        width: 84%;
+    }
+    input[type=button] {
+        background-color: #57eeab;
+        color: black;
+        width: 471px;
+        height: 45px;
+        border-color: #57eeab;
+        font-size: 28px;
+        font-family: 'Montserrat', bold;
+    }
+    footer {
+        background-color: #fffd8c;
+        height: 42%;
+        width: 99%;
+        padding: 10px;
+    }
+    h3 {
+        font-size: 151%;
+        height: 29px;
+        margin: 13px;
+        font-family: 'Montserrat', bold;
+    }
+    input#hours {
+        width: 65px;
+        display: flex;
+        margin: 10px;
+    }
+    input#city {
+        margin: 10px;
+    }
+}
+
+input[type=submit] {
+    background-color: #ff8480;
+    width: 361px;
+    height: 39px;
+    border-color: #ff8480;
+    font-size: 28px;
+    margin: 15px;
+    color: white;
+    font-family: 'Montserrat', bold;
+}
+
+label {
+    display: flex;
+}
+
+.info {
+    margin: 38px;
+    width: 898px;
+    display: flex;
+    padding: 1px;
+}
+
+.icons {
+    font-size: 50px;
+    padding: 14px;
+    display: flex;
+    justify-content: flex-end;
+}
