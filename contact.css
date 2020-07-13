@@ -1,0 +1,238 @@
+img {
+    width: 28%;
+    display: flex;
+    margin-block-end: 2px;
+}
+
+a {
+    color: white;
+    background-color: grey;
+    padding: 7px;
+    display: flex;
+    width: 99%;
+    font-family: sans-serif;
+}
+
+nav {
+    background-color: grey;
+    text-align: -webkit-center;
+}
+
+nav ul a {
+    padding: 1rem;
+    color: white;
+    width: 11%;
+    margin: auto;
+    text-align: center;
+    font-weight: bold;
+    text-decoration: blink;
+}
+
+.paragraph-one {
+    margin-top: -15px;
+    font-size: 147%;
+}
+
+img[src*="contact-img"] {
+    width: 87%;
+}
+
+.first-container {
+    background-color: green;
+    color: white;
+    display: grid;
+    font-size: 133%;
+}
+
+.label {
+    display: grid;
+    width: 77%;
+}
+
+textarea {
+    width: 98%;
+}
+
+img[src*="google-map"] {
+    width: 87%;
+    margin-left: 25px;
+}
+
+footer {
+    background-color: gray;
+    color: white;
+    margin: 7px;
+    text-align: center;
+    height: 138px;
+    width: 104%;
+    margin-bottom: -36px;
+    margin-left: -10px;
+}
+
+.icon-two {
+    font-size: 39px;
+}
+
+button {
+    margin-left: 30%;
+    margin-right: 33%;
+    background-color: black;
+    border: black;
+    color: white;
+    font-size: 26px;
+    margin: 4%;
+    width: 86%;
+}
+
+
+/*tablet view*/
+
+@media(min-width: 35rem) {
+    img[src*="logo"] {
+        width: 18%;
+        display: flex;
+        margin-block-end: 2px;
+        float: left;
+        height: 107px;
+    }
+    nav ul a {
+        padding: 1rem;
+        color: white;
+        width: 9%;
+        /* margin: auto; */
+        text-align: end;
+        font-weight: bold;
+        text-decoration: blink;
+        display: inline-block;
+        height: 68px;
+        font-size: 30px;
+        margin-right: 5px;
+        margin-bottom: 2px;
+        margin: 1px;
+    }
+    paragraph-one {
+        margin-top: -15px;
+        font-size: 136%;
+        margin-left: 73px;
+    }
+    img[src*="contact-img"] {
+        width: 40%;
+        margin-left: 25%;
+    }
+    .first-container {
+        background-color: green;
+        color: white;
+        display: block;
+        font-size: 133%;
+        justify-content: center;
+        width: 434px;
+        margin-left: 27%;
+    }
+    .label {
+        display: grid;
+        width: 77%;
+    }
+    textarea {
+        width: 98%;
+    }
+    img[src*="google-map"] {
+        width: 87%;
+        margin-left: 25px;
+    }
+    footer {
+        background-color: gray;
+        color: white;
+        margin: 7px;
+        text-align: center;
+        height: 138px;
+        width: 104%;
+        margin-bottom: -36px;
+        margin-left: -10px;
+    }
+    .icon-two {
+        font-size: 39px;
+    }
+    h1 {
+        font-size: 390%;
+        width: 46%;
+        margin-left: 21%;
+    }
+    h3 {
+        font-size: 48px;
+        margin-left: 6%;
+    }
+    h4 {
+        font-size: 25px;
+        margin-left: 6%;
+        margin-top: -34px;
+    }
+    .second-container {
+        font-size: larger;
+        margin-left: 6%;
+    }
+    button {
+        margin-left: 46%;
+        margin-right: 24%;
+        background-color: black;
+        border: black;
+        color: white;
+        font-size: 26px;
+        /* margin: 4%; */
+        width: 53%;
+        margin-top: 11px;
+    }
+}
+
+
+/*desktop view*/
+
+@media (min-width: 80rem) {
+    img[src*="logo"] {
+        width: 13%;
+        display: flex;
+        margin-block-end: 2px;
+        float: left;
+        height: 107px;
+    }
+    img[src*="contact-img"] {
+        width: 40%;
+        margin-left: 22px;
+    }
+    h1 {
+        font-size: 390%;
+        width: 46%;
+        margin-left: 1%;
+    }
+    .paragraph-one {
+        margin-top: -28px;
+        font-size: 156%;
+        width: 64%;
+        margin-left: 14px;
+    }
+    .first-container {
+        background-color: green;
+        color: white;
+        display: flow-root;
+        font-size: 133%;
+        justify-content: center;
+        width: 32%;
+        margin-left: 66%;
+        margin-top: -633px;
+    }
+    img[src*="google-map"] {
+        width: 32%;
+        margin-left: 66%;
+        margin-top: -25%;
+    }
+    button {
+        margin-left: 46%;
+        margin-right: 24%;
+        background-color: black;
+        border: black;
+        color: white;
+        font-size: 26px;
+        /* margin: 4%; */
+        width: 47%;
+        margin-top: 11px;
+    }
+}

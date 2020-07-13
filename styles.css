@@ -1,0 +1,430 @@
+img {
+    width: 28%;
+    display: flex;
+    margin-block-end: 2px;
+}
+
+a {
+    color: white;
+    background-color: grey;
+    padding: 7px;
+    display: flex;
+    width: 99%;
+    font-family: sans-serif;
+}
+
+nav {
+    background-color: grey;
+    text-align: -webkit-center;
+}
+
+nav ul a {
+    padding: 1rem;
+    color: white;
+    width: 11%;
+    margin: auto;
+    text-align: center;
+    font-weight: bold;
+    text-decoration: blink;
+}
+
+.icons {
+    display: flex;
+    flex-direction: column;
+    font-size: 27px;
+    color: green;
+}
+
+.font-one {
+    display: flex;
+    /* flex-direction: initial; */
+    justify-content: center;
+    margin-top: -106px;
+}
+
+.font-two {
+    display: flex;
+    /* flex-direction: initial; */
+    justify-content: center;
+    margin-top: -87px;
+}
+
+.fa-basketball-ball:before {
+    content: "\f434";
+    margin-right: -23px;
+}
+
+.paragraph-one,
+.paragraph-two,
+.paragraph-three,
+.paragraph-four {
+    color: black;
+    margin-bottom: 17px;
+}
+
+button {
+    width: 85%;
+    color: white;
+    background-color: green;
+    border: green;
+    font-size: 27px;
+    margin-left: 25px;
+}
+
+.second-container {
+    width: 326%;
+    margin: 16px;
+}
+
+h2 {
+    color: black;
+}
+
+h3 {
+    color: green;
+    margin-top: -28px;
+}
+
+.paragraph-five {
+    color: black;
+    font-size: 20px;
+    margin-top: -32px;
+}
+
+.learn-more {
+    margin-left: 275px;
+}
+
+.third-container {
+    display: flex;
+    width: 255%;
+    margin: 52px;
+}
+
+h4 {
+    color: white;
+    margin-top: -22px;
+    text-align: center;
+    background-color: gray;
+}
+
+h5 {
+    color: white;
+    margin-top: -31px;
+    text-align: center;
+    background-color: gray;
+}
+
+.background {
+    background-color: gray;
+}
+
+.paragraph-six {
+    color: white;
+    padding: 6px;
+    margin-top: -34px;
+    font-size: 89%;
+    background-color: gray;
+}
+
+.fourth-container {
+    width: 357%;
+}
+
+h6 {
+    color: black;
+    font-size: 126%;
+    margin-top: 1px;
+}
+
+h7 {
+    margin-top: -69px;
+}
+
+.paragraph-seven {
+    color: black;
+}
+
+footer {
+    background-color: gray;
+    color: white;
+    margin: 14px;
+    text-align: center;
+    height: 138px;
+    width: 99%;
+    margin-bottom: -22px
+}
+
+.icon-two {
+    font-size: 39px;
+}
+
+.icon-three {
+    display: flex;
+    justify-content: flex-end;
+    margin-inline-end: 39px;
+    color: black;
+}
+
+.dumbell-icon {
+    margin-bottom: -5%;
+}
+
+.fa,
+.fas {
+    font-weight: 900;
+    margin-bottom: -4%;
+}
+
+.mountain-text {
+    margin-left: -21%;
+}
+
+
+/* tablet view*/
+
+@media(min-width: 35rem) {
+    img[src*="logo"] {
+        width: 28%;
+        display: flex;
+        margin-block-end: 2px;
+        float: left;
+        height: 107px;
+    }
+    nav ul a {
+        padding: 1rem;
+        color: white;
+        width: 9%;
+        /* margin: auto; */
+        text-align: end;
+        font-weight: bold;
+        text-decoration: blink;
+        display: inline-block;
+        height: 68px;
+        font-size: 30px;
+        margin-right: 5px;
+        margin-bottom: 2px;
+        margin: 1px;
+    }
+    .font-one {
+        display: flex;
+        /* flex-direction: initial; */
+        justify-content: center;
+        margin-top: -88px;
+        margin-left: -597px;
+    }
+    .dumbbell {
+        margin-top: -114px;
+        margin-left: 36%;
+        margin-bottom: 0px;
+    }
+    .dumbell-icon {
+        margin-bottom: -3%;
+    }
+    .font-two {
+        display: flex;
+        /* flex-direction: initial; */
+        justify-content: center;
+        margin-top: -84px;
+        margin-right: -233px;
+    }
+    .basketball {
+        margin-left: 11%;
+        margin: 8px;
+        margin-top: -6px;
+    }
+    .mountain {
+        margin-left: -13px;
+        margin-block-start: -6px;
+        margin-right: -33px;
+    }
+    h1 {
+        font-size: 460%;
+        width: 561px;
+        color: black;
+    }
+    .sentence-one {
+        font-size: 43px;
+    }
+    img[src*="discover"] {
+        width: 15%;
+        margin-inline-start: 163px;
+    }
+    button {
+        width: 44%;
+        color: white;
+        background-color: green;
+        border: green;
+        font-size: 27px;
+        margin-left: 189px;
+    }
+    img[src*="discover"] {
+        width: 15%;
+        margin-inline-start: 163px;
+    }
+    img[src*="simon"] {
+        width: 43%;
+    }
+    .third-container {
+        background-color: gray;
+        width: 97%;
+    }
+    .background {
+        width: 50%;
+        margin-block-start: -33px;
+        margin-block-end: -67px;
+        margin-left: 50px;
+    }
+    .paragraph-six {
+        color: white;
+        margin-top: -219px;
+        font-size: 89%;
+        background-color: gray;
+        margin-left: 49%;
+        width: 766px;
+    }
+    .text {
+        font-size: 31px;
+        width: 101%;
+    }
+    img[src*="entertainment"] {
+        width: 881px;
+        height: 313px;
+        margin-left: 50px;
+    }
+    .header {
+        height: 107px;
+    }
+    .fa,
+    .fas {
+        font-weight: 900;
+        margin-bottom: -2%;
+    }
+}
+
+
+/*desktop view*/
+
+@media (min-width: 80rem) {
+    img[src*="logo"] {
+        width: 13%;
+        display: flex;
+        margin-block-end: 2px;
+        float: left;
+        height: 107px;
+    }
+    .sentence-one {
+        font-size: 156%;
+        width: 49%;
+        margin-top: -32px;
+    }
+    .font-one {
+        display: flex;
+        /* flex-direction: initial; */
+        justify-content: center;
+        margin-top: -7%;
+        margin-left: -70%;
+    }
+    .font-two {
+        display: flex;
+        /* flex-direction: initial; */
+        justify-content: center;
+        margin-top: -54px;
+        margin-right: 385px
+    }
+    .dumbbell {
+        margin-top: -96px;
+        margin-left: 23%;
+        margin-bottom: -1px;
+    }
+    .basketball {
+        margin-left: 22%;
+        margin: 1px;
+        margin-top: -10px;
+    }
+    img[src*="discover"] {
+        width: 13%;
+        margin-inline-start: 163px;
+        margin-left: 15%;
+        margin-top: -443px;
+    }
+    button {
+        width: 28%;
+        color: white;
+        background-color: green;
+        border: green;
+        font-size: 27px;
+        margin-left: 1px;
+    }
+    img[src*="school"] {
+        width: 12%;
+    }
+    h2 {
+        margin-left: 43%;
+        margin-top: -420px;
+    }
+    h3 {
+        color: green;
+        margin-top: -28px;
+        margin-left: 43%;
+    }
+    .paragraph-five {
+        color: black;
+        font-size: 109%;
+        margin-top: -21px;
+        margin-left: 643px;
+        width: 616px;
+    }
+    .learn-more {
+        margin-left: 64%;
+    }
+    img[src*="simon"] {
+        width: 19%;
+        margin-left: 16%;
+    }
+    img[src*="entertainment"] {
+        width: 653px;
+        height: 313px;
+        margin: 137px;
+        margin-left: 629px;
+    }
+    .paragraph-six {
+        color: white;
+        margin-top: -223px;
+        font-size: 89%;
+        background-color: gray;
+        margin-left: 49%;
+        width: 762px;
+    }
+    h6 {
+        color: black;
+        font-size: 126%;
+        margin-top: -380px;
+    }
+    .paragraph-seven {
+        color: black;
+        font-size: 83%;
+        width: 624px;
+    }
+    .fa,
+    .fas {
+        font-weight: 900;
+        margin-bottom: -1%;
+    }
+    .dumbell-icon {
+        margin-bottom: -2%;
+    }
+    .basketball-text {
+        margin-top: -22%;
+        margin-left: -28%;
+    }
+    .basketball-icon {
+        margin-top: -16px;
+        margin-left: -38px;
+    }
+    .dumbbell {
+        margin-top: -107px;
+        margin-left: 19%;
+        margin-bottom: -1px;
+    }
+}
