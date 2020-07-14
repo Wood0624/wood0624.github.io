@@ -1,0 +1,468 @@
+img {
+    width: 28%;
+    display: flex;
+    margin-block-end: 2px;
+}
+
+a {
+    color: white;
+    background-color: grey;
+    padding: 7px;
+    display: flex;
+    width: 99%;
+    font-family: sans-serif;
+}
+
+nav {
+    background-color: grey;
+    text-align: -webkit-center;
+}
+
+nav ul a {
+    padding: 1rem;
+    color: white;
+    width: 11%;
+    margin: auto;
+    text-align: center;
+    font-weight: bold;
+    text-decoration: blink;
+}
+
+img[src*="construction"] {
+    width: 83%;
+}
+
+img[src*="about"] {
+    width: 83%;
+}
+
+img[src*="services"] {
+    width: 83%;
+}
+
+h5 {
+    color: green;
+    font-size: 25px;
+}
+
+.first-container {
+    background-color: grey;
+    width: 112%;
+    margin-bottom: 35px;
+    height: 93px;
+}
+
+h3 {
+    font-size: 28px;
+}
+
+h4,
+h6 {
+    font-size: 28px;
+    margin-bottom: -36px;
+}
+
+h8,
+h9 {
+    font-size: 28px;
+    margin-bottom: -36px;
+}
+
+h7 {
+    color: white;
+    font-size: 22px;
+    margin: 74px;
+}
+
+h10 {
+    font-size: 286%;
+    margin: 0px;
+}
+
+button {
+    background-color: green;
+    border: green;
+    margin-bottom: 0px;
+    margin-left: 172px;
+    color: white;
+    font-size: 25px;
+    margin-top: 10px;
+}
+
+footer {
+    background-color: gray;
+    color: white;
+    margin: 14px;
+    text-align: center;
+    height: 138px;
+    width: 99%;
+    margin-bottom: -22px
+}
+
+.icon-two {
+    font-size: 39px;
+}
+
+.icon-three {
+    display: flex;
+    justify-content: flex-end;
+    margin-inline-end: 39px;
+    color: black;
+}
+
+.logos {
+    margin-left: 147px;
+    width: 128%;
+    margin-top: 18px;
+}
+
+.paragraph-one {
+    margin-bottom: -30px;
+}
+
+.paragraph-two {
+    margin-bottom: -30px;
+}
+
+.paragraph-three {
+    margin-bottom: -30px;
+}
+
+.paragraph-four {
+    margin-bottom: -30px;
+}
+
+p {
+    font-size: 139%;
+}
+
+.banner-one {
+    margin-bottom: -39px;
+}
+
+.banner-two {
+    margin-bottom: -39px;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.container-two {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 41%;
+    transform: translate(-50%, -50%);
+    font-size: 343%;
+}
+
+img[src*="bar"] {
+    display: none;
+}
+
+img[src*="bowling"] {
+    display: none;
+}
+
+img[src*="fitness"] {
+    display: none;
+}
+
+img[src*="climbing"] {
+    display: none;
+}
+
+
+/* tablet view*/
+
+@media(min-width: 35rem) {
+    img[src*="logo"] {
+        width: 28%;
+        display: flex;
+        margin-block-end: 2px;
+        float: left;
+        height: 107px;
+    }
+    img[src*="construction"] {
+        width: 83%;
+        margin-left: 89px;
+    }
+    nav ul a {
+        padding: 1rem;
+        color: white;
+        width: 9%;
+        /* margin: auto; */
+        text-align: end;
+        font-weight: bold;
+        text-decoration: blink;
+        display: inline-block;
+        height: 68px;
+        font-size: 30px;
+        margin-right: 5px;
+        margin-bottom: 2px;
+        margin: 1px;
+    }
+    h1 {
+        font-size: 328%;
+        width: 76%;
+    }
+    .text {
+        font-size: 21px;
+    }
+    img[src*="about"] {
+        width: 103%;
+        height: 163px;
+    }
+    img[src*="services"] {
+        width: 103%;
+        height: 163px;
+    }
+    h2,
+    h3 {
+        font-size: 200%;
+    }
+    h10 {
+        font-size: 300%;
+        margin: 0px;
+        margin-left: 217px;
+    }
+    .logos {
+        margin-left: 35%;
+        width: 128%;
+        margin-top: 5px;
+    }
+    .icon-two {
+        font-size: 58px;
+    }
+    .tablet-one {
+        margin-left: 48%;
+    }
+    .tablet-two {
+        margin-right: 51%;
+    }
+    .tablet-three {
+        margin-left: 48%;
+    }
+    .tablet-four {
+        margin-right: 51%;
+        margin-bottom: 18%
+    }
+    img[src*="bar"] {
+        display: flex;
+        width: 88%;
+        margin-left: -90%;
+        margin-bottom: -63%;
+        height: 284px;
+    }
+    img[src*="bowling"] {
+        display: flex;
+        margin-left: 103%;
+        margin-bottom: -70%;
+        width: 93%;
+    }
+    img[src*="fitness"] {
+        display: flex;
+        width: 88%;
+        margin-left: -90%;
+        margin-bottom: -42%;
+        height: 284px;
+        margin-top: -112px;
+    }
+    img[src*="climbing"] {
+        display: flex;
+        margin-left: 105%;
+        margin-bottom: -67%;
+        width: 93%;
+    }
+    h5 {
+        color: green;
+        font-size: 25px;
+        margin-top: 69px;
+    }
+    h6 {
+        margin-bottom: -54px;
+    }
+    h7 {
+        color: white;
+        font-size: 28px;
+        margin: 74px;
+        margin-left: 102px;
+    }
+    .first-container {
+        background-color: grey;
+        width: 112%;
+        margin-bottom: 9px;
+        height: 93px;
+        margin-top: 10%;
+    }
+    .header-three {
+        margin-top: -13%;
+    }
+    .paragraph-four {
+        margin-bottom: -30px;
+        margin-top: -69px;
+    }
+    button {
+        background-color: green;
+        border: green;
+        margin-bottom: -38px;
+        margin-left: -14px;
+        color: white;
+        font-size: 160%;
+        margin-top: 34px;
+    }
+}
+
+
+/*desktop view*/
+
+@media (min-width: 80rem) {
+    img[src*="logo"] {
+        width: 13%;
+        display: flex;
+        margin-block-end: 2px;
+        float: left;
+        height: 107px;
+    }
+    img[src*="construction"] {
+        width: 42%;
+        margin-left: 58%;
+        margin-top: -24%;
+    }
+    .text {
+        font-size: 22px;
+        width: 45%;
+    }
+    img[src*="about"] {
+        width: 103%;
+        height: 185px;
+    }
+    img[src*="services"] {
+        width: 103%;
+        height: 185px;
+    }
+    .text-two {
+        width: 26%;
+        margin-top: -2%;
+    }
+    .header-one {
+        margin-left: 32%;
+        margin-top: -282px;
+    }
+    .text-three {
+        width: 26%;
+        margin-left: 31%;
+    }
+    .header-two {
+        margin-left: 69%;
+        margin-top: -235px;
+    }
+    .text-four {
+        width: 26%;
+        margin-left: 69%;
+        margin-top: -24px;
+    }
+    img[src*="bar"] {
+        display: flex;
+        width: 88%;
+        margin-left: -93%;
+        margin-bottom: -24%;
+        height: 288px;
+        margin-top: 44px;
+    }
+    img[src*="bowling"] {
+        display: flex;
+        margin-left: 103%;
+        margin-bottom: -46%;
+        width: 93%;
+        height: 328px;
+    }
+    img[src*="fitness"] {
+        display: flex;
+        width: 88%;
+        margin-left: -90%;
+        margin-bottom: -14%;
+        height: 284px;
+        margin-top: -58px;
+    }
+    .header-one {
+        margin-left: 31%;
+        margin-top: -282px;
+        margin-bottom: -2%;
+    }
+    .header-three {
+        margin-top: -8%;
+    }
+    .tablet-two {
+        margin-right: 51%;
+        margin-top: 7%;
+    }
+    .tablet-four {
+        margin-right: 50%;
+        margin-bottom: 31%;
+    }
+    h10 {
+        font-size: 300%;
+        margin: 0px;
+        margin-left: 469px;
+    }
+    .logos {
+        margin-left: 42%;
+        width: 80%;
+        margin-top: 5px;
+    }
+    h4 {
+        margin-bottom: -100px;
+    }
+    h5 {
+        color: green;
+        font-size: 25px;
+        margin-top: 69px;
+        margin-bottom: 56px;
+    }
+    h7 {
+        color: white;
+        font-size: 38px;
+        margin: 74px;
+        margin-left: 16%;
+    }
+    .desktop-paragraph {
+        margin-top: -36%;
+    }
+    .desktop-introduction {
+        margin-bottom: -12%;
+    }
+    .paragraph-one {
+        margin-bottom: 12%;
+        margin-top: -38%;
+    }
+    .paragraph-four {
+        margin-bottom: 5%;
+    }
+    .banner-two {
+        margin-bottom: 37%;
+    }
+    .desktop-header {
+        margin: 26%;
+        margin-left: 0px;
+        margin-bottom: 0;
+    }
+    .banner-two {
+        margin-bottom: 10%;
+    }
+    .centered {
+        position: absolute;
+        top: 50%;
+        left: 48%;
+        transform: translate(-50%, -50%);
+        font-size: 343%;
+    }
+}
