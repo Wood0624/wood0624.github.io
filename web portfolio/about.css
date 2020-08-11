@@ -1,0 +1,204 @@
+body {
+    background-color: blue;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+}
+
+h2 {
+    color: white;
+}
+
+a {
+    color: white;
+    padding: 7px;
+    display: flex;
+    width: 99%;
+    font-family: sans-serif;
+}
+
+nav {
+    text-align: -webkit-center;
+}
+
+nav ul a {
+    padding: 1rem;
+    color: white;
+    width: 11%;
+    text-align: end;
+    font-weight: bold;
+    text-decoration: blink;
+    display: inline-block;
+    height: 44px;
+    font-size: 19px;
+    margin-right: -42px;
+    margin-bottom: -24px;
+    margin: -31px;
+}
+
+ul {
+    margin-left: -90%;
+    margin-right: -77%;
+}
+
+p {
+    color: white;
+    font-size: large;
+}
+
+img[src*="Screenshot (1).jpg"] {
+    width: 39%;
+}
+
+img[src*="Screenshot (2).jpg"] {
+    width: 39%;
+}
+
+img[src*="Screenshot (3).jpg"] {
+    width: 39%;
+}
+
+img[src*="Screenshot (4).jpg"] {
+    width: 39%;
+}
+
+img[src*="Screenshot (5).jpg"] {
+    width: 39%;
+}
+
+img[src*="Screenshot (6).jpg"] {
+    width: 39%;
+}
+
+
+/*tablet view*/
+
+@media(min-width: 35rem) {
+    body {
+        background-color: blue;
+    }
+    h1 {
+        text-align: center;
+        color: white;
+    }
+    h2 {
+        color: white;
+    }
+    a {
+        color: white;
+        padding: 7px;
+        display: flex;
+        width: 99%;
+        font-family: sans-serif;
+    }
+    nav {
+        text-align: -webkit-center;
+    }
+    nav ul a {
+        padding: 1rem;
+        color: white;
+        width: 10%;
+        text-align: end;
+        font-weight: bold;
+        text-decoration: blink;
+        display: inline-block;
+        height: 44px;
+        font-size: 26px;
+        margin-right: -29px;
+        margin-bottom: -24px;
+        margin: -20px;
+    }
+    ul {
+        margin-right: -77%;
+    }
+    p {
+        color: white;
+        font-size: large;
+    }
+    img[src*="Screenshot (1).jpg"] {
+        width: 39%;
+    }
+    img[src*="Screenshot (2).jpg"] {
+        width: 39%;
+    }
+    img[src*="Screenshot (3).jpg"] {
+        width: 39%;
+    }
+    img[src*="Screenshot (4).jpg"] {
+        width: 39%;
+    }
+    img[src*="Screenshot (5).jpg"] {
+        width: 39%;
+    }
+    img[src*="Screenshot (6).jpg"] {
+        width: 39%;
+    }
+}
+
+
+/*desktop view*/
+
+@media (min-width: 80rem) {
+    body {
+        background-color: blue;
+    }
+    h1 {
+        text-align: center;
+        color: white;
+    }
+    h2 {
+        color: white;
+    }
+    a {
+        color: white;
+        padding: 7px;
+        display: flex;
+        width: 99%;
+        font-family: sans-serif;
+    }
+    nav {
+        text-align: -webkit-center;
+    }
+    nav ul a {
+        padding: 1rem;
+        color: white;
+        width: 10%;
+        text-align: end;
+        font-weight: bold;
+        text-decoration: blink;
+        display: inline-block;
+        height: 44px;
+        font-size: 26px;
+        margin-right: -29px;
+        margin-bottom: -24px;
+        margin: -20px;
+    }
+    ul {
+        margin-left: -5%;
+        margin-right: 2px;
+    }
+    p {
+        color: white;
+        font-size: large;
+    }
+    img[src*="Screenshot (1).jpg"] {
+        width: 39%;
+    }
+    img[src*="Screenshot (2).jpg"] {
+        width: 39%;
+    }
+    img[src*="Screenshot (3).jpg"] {
+        width: 39%;
+    }
+    img[src*="Screenshot (4).jpg"] {
+        width: 39%;
+    }
+    img[src*="Screenshot (5).jpg"] {
+        width: 39%;
+    }
+    img[src*="Screenshot (6).jpg"] {
+        width: 39%;
+    }
+}

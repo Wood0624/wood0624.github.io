@@ -1,0 +1,221 @@
+body {
+    background-color: green;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    margin: 7%;
+}
+
+a {
+    color: white;
+    padding: 7px;
+    display: flex;
+    width: 99%;
+    font-family: sans-serif;
+}
+
+nav {
+    text-align: -webkit-center;
+}
+
+nav ul a {
+    padding: 1rem;
+    color: white;
+    width: 13%;
+    text-align: end;
+    font-weight: bold;
+    text-decoration: blink;
+    display: inline-block;
+    height: 5px;
+    font-size: 20px;
+    margin-right: -18px;
+    margin-bottom: -24px;
+    margin: 10px;
+}
+
+ul {
+    margin-left: -5%;
+}
+
+label {
+    color: black;
+}
+
+.third-container {
+    width: 26%;
+    font-size: larger;
+    margin-left: 41%;
+    height: 244px;
+    margin-top: 20px;
+    background-color: green;
+}
+
+input#Email {
+    width: 124%;
+}
+
+input#Phone {
+    margin-left: 1%;
+}
+
+.third-container {
+    width: 26%;
+    font-size: larger;
+    margin-left: 41%;
+    height: 244px;
+    margin-top: -34px;
+    background-color: green;
+}
+
+.icons {
+    color: white;
+    font-size: 212%;
+    margin: 14%;
+}
+
+
+/*tablet view*/
+
+@media(min-width: 35rem) {
+    body {
+        background-color: green;
+    }
+    h1 {
+        text-align: center;
+        color: white;
+        margin: 3%;
+    }
+    a {
+        color: white;
+        padding: 7px;
+        display: flex;
+        width: 99%;
+        font-family: sans-serif;
+    }
+    nav {
+        text-align: -webkit-center;
+    }
+    nav ul a {
+        padding: 1rem;
+        color: white;
+        width: 10%;
+        /* margin: auto; */
+        text-align: end;
+        font-weight: bold;
+        text-decoration: blink;
+        display: inline-block;
+        height: 44px;
+        font-size: 26px;
+        margin-right: -29px;
+        margin-bottom: -24px;
+        margin: -20px;
+    }
+    ul {
+        margin-left: -5%;
+    }
+    label {
+        color: black;
+    }
+    .third-container {
+        width: 26%;
+        font-size: larger;
+        margin-left: 41%;
+        height: 244px;
+        margin-top: 20px;
+        background-color: green;
+    }
+    input#Email {
+        width: 47%;
+    }
+    input#Phone {
+        margin-left: 1%;
+    }
+    .third-container {
+        width: 26%;
+        font-size: larger;
+        margin-left: 41%;
+        height: 244px;
+        margin-top: -34px;
+        background-color: green;
+    }
+    .icons {
+        color: white;
+        font-size: 212%;
+        margin: 14%;
+    }
+}
+
+
+/*desktop view*/
+
+@media (min-width: 80rem) {
+    body {
+        background-color: green;
+    }
+    h1 {
+        text-align: center;
+        color: white;
+        margin: 3%;
+    }
+    a {
+        color: white;
+        padding: 7px;
+        display: flex;
+        width: 99%;
+        font-family: sans-serif;
+    }
+    nav {
+        text-align: -webkit-center;
+    }
+    nav ul a {
+        padding: 1rem;
+        color: white;
+        width: 10%;
+        /* margin: auto; */
+        text-align: end;
+        font-weight: bold;
+        text-decoration: blink;
+        display: inline-block;
+        height: 44px;
+        font-size: 26px;
+        margin-right: -29px;
+        margin-bottom: -24px;
+        margin: -20px;
+    }
+    ul {
+        margin-left: -5%;
+    }
+    label {
+        color: black;
+    }
+    .third-container {
+        width: 26%;
+        font-size: larger;
+        margin-left: 41%;
+        height: 244px;
+        margin-top: 20px;
+        background-color: green;
+    }
+    input#Email {
+        width: 47%;
+    }
+    input#Phone {
+        margin-left: 1%;
+    }
+    .third-container {
+        width: 26%;
+        font-size: larger;
+        margin-left: 41%;
+        height: 244px;
+        margin-top: -34px;
+        background-color: green;
+    }
+    .icons {
+        color: white;
+        font-size: 301%;
+        margin: 9%;
+        margin-left: 1px;
+    }
+}
